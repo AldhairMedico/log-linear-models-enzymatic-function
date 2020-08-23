@@ -69,11 +69,20 @@ Files:
  
 # Physicochemical descriptors
 
+Server: MutantElec https://structuralbio.utalca.cl/mutanelec/
+- Select Site-Specific Mutagenesis
+- Upload WT as PDB (without heteroatoms nor header)
+- Enter PDB code: 3pl1
+- Number of Mutations: 1
+- Skip mutations and upload experimental mutants PDB files?: ON
+- Submit
+
 The following parameters were used to calculate electrostatic-potentials:
+- Upload Mutant as PDB
 - Ɛprotein = 4 
 - Ɛwater = 74.1522 at T = 37°C
 - T = 310.15 Kelvin (37° C)
-
+- Process
 
 # Geometrical descriptors
 
